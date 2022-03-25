@@ -1,0 +1,102 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify information and title on careers tab",
+        "description": "",
+        "id": "verify-fuction-and-data-on-careers-tab;verify-information-and-title-on-careers-tab",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "A user navigates to careers tab",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "A user is able to search any position and verify the title",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "A user successfully verify description responsibilities requirements",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "A user successfully apply for the position",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "A user successfully verify a job title match the previous page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@labCorpTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify fuction and data on careers tab",
+    "description": "",
+    "id": "verify-fuction-and-data-on-careers-tab",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/features/ApplyFunctionality.feature",
+    "tags": [
+      {
+        "name": "@labCorpTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
